@@ -16,7 +16,7 @@ function setup() {
   engine = Engine.create();
     world = engine.world;
 
-   createCanvas(800,400);
+   createCanvas(1300,600);
 
    
    if(frameCount %150===0){
@@ -25,7 +25,7 @@ function setup() {
     
       }
        }  
- snowman= new Snowman(250,350);
+ snowman= new Snowman(950,300);
    
 }
 
